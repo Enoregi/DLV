@@ -1,0 +1,143 @@
+/* register/login */
+#login-form input, #register-window input{
+    
+   display: block;
+     margin: 1%;
+       position: relative;
+        left: 120px;
+    
+}
+#login-form label{
+    
+   display: block;
+     position: relative;
+      left: 130px;
+        margin-top: 6%
+}
+#register-window label{
+    
+   display: block;
+     position: relative;
+      left: 130px;
+        margin-top: 6px;
+}
+#backToLogin{
+     position: absolute;
+      left: 130px;
+      top: 380px;
+}
+.register{
+    display: block;
+    margin: 5px;
+   }
+   
+#err_msg{
+
+   color: red; 
+}
+#captcha_err_msg{
+    color: red; 
+    position: absolute;
+    top: -22px;
+    
+}
+/* */
+
+/* login */
+#login-window, #register-window{
+    width: 400px;
+    height: 420px;
+    
+    left: 30%;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.g-recaptcha{
+    margin-top: 15px;
+    position: relative;
+    left: 50px;
+   
+}
+#login-form #submit{
+    position: relative;
+    left: 80px;
+    width: 80px;
+    
+}
+#donthave{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+/*nav bar style*/
+ul {
+  list-style-type: none;
+  margin-left: -9px;
+  margin-right: -9px;
+  margin-top: -9px;
+  margin-bottom: 10px;
+  
+  padding-top: -9px;
+  padding-left: -9px;
+  padding-right: -9px;
+  width: auto;
+  
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#logout{
+    position: absolute;
+  left: 85%;  
+}
+/*    */
+
+/* user view */
+
+#change{   
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* */
+/* win table*/
+h3 {
+    margin-left: 50px;
+}
+#live-table{
+    width: 850px;
+    position: static;
+    margin-left: 50px;
+}
+/*#live-table tr:nth-child(even){background-color: #f2f2f2;}*/
+
+#live-table tr:hover {background-color: #ddd;}
+
+#live-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a3a3c2;
+  color: black;
+}
+/* export to xls button*/
+#export{
+    margin-left: 50px;
+}
